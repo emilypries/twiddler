@@ -1,6 +1,6 @@
-# Closed Word — friends playtest
+# Twiddler
 
-A static, friend-facing build of the Closed Word solo tile game.
+A static, friend-facing build of the Twiddler solo tile game.
 
 ## Local development
 
