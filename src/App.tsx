@@ -37,8 +37,8 @@ export default function App(){
   const internal=false;
   const [tab,setTab]=useState<"play"|"lab">("play");
   const [patterns,setPatterns]=useState<Pattern[]>(PATTERNS);
-  const [deckSize,setDeckSize]=useState(19);
-  const [boardSide,setBoardSide]=useState(3);
+  const [deckSize,setDeckSize]=useState(50);
+  const [boardSide,setBoardSide]=useState(4);
   const [startingHand,setStartingHand]=useState(3);
   const [letterSpawnRate,setLetterSpawnRate]=useState(60);
   const [wordColors,setWordColors]=useState<WordColors>(THEMES[4].words);
