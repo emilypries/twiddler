@@ -177,7 +177,7 @@
 .theme-panel { padding-bottom: 18px; border-bottom: 1px solid var(--line); }
 .theme-panel select { margin-top: 12px; font-size: 10px; }
 .theme-panel > p:last-child { margin: 9px 0 0; color: var(--muted); font-size: 9px; line-height: 1.4; }
-.tile-svg .letter { font-size: 12px; font-weight: 900; paint-order: stroke; stroke: var(--white); stroke-width: 2.5px; stroke-linejoin: round; }
+.tile-svg .letter { font-size: 12px; font-weight: 900; fill: #20251f; stroke: none; paint-order: normal; }
 .word-tray { grid-column: 1 / -1; border-top: 1px solid var(--ink); display: grid; grid-template-columns: 130px 1fr; align-items: center; padding: 7px 18px; gap: 14px; background: #eae4d8; min-height: 0; }
 .word-tray > div:first-child span { font-size: 10px; color: var(--muted); }
 .bottom-words { display: flex; align-items: center; gap: 8px; overflow-x: auto; min-width: 0; }
