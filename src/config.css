@@ -200,10 +200,18 @@ main header { background: color-mix(in srgb, var(--panel, var(--paper)) 72%, tra
 .board-tools > button:not(.save-board) { width: 34px; height: 34px; border: 1px solid var(--ink); border-radius: 50%; background: var(--tile-line); color: var(--white); display: grid; place-items: center; padding: 0; font-size: 16px; font-weight: 800; line-height: 1; }
 .board-tools > button:hover { transform: translateY(-1px); box-shadow: 0 2px 0 color-mix(in srgb, var(--ink) 25%, transparent); }
 .side-hand .end-game.restart { background: var(--orange); border-color: var(--orange); color: white; }
-.found-panel { min-width: 0; padding: 24px 18px; background: var(--panel); overflow: hidden; }
-.found-panel > div:first-child { display: flex; align-items: baseline; justify-content: space-between; padding-bottom: 16px; border-bottom: 1px solid var(--line); }
-.found-panel > div:first-child span { color: var(--muted); font-size: 9px; }
-.found-list { display: grid; align-content: start; gap: 8px; padding-top: 16px; max-height: calc(100vh - 82px); overflow-y: auto; }
+.found-panel { min-width: 0; padding: 24px 18px; background: var(--panel); overflow: hidden; display: grid; grid-template-rows: auto minmax(0, 1fr); gap: 24px; }
+.featured-puzzles { padding-bottom: 20px; border-bottom: 1px solid var(--line); }
+.featured-puzzles > div:first-child,.found-header { display: flex; align-items: baseline; justify-content: space-between; padding-bottom: 12px; }
+.featured-puzzles span,.found-header span { color: var(--muted); font-size: 9px; }
+.featured-grid { display: grid; grid-template-columns: 1fr; gap: 7px; max-height: 410px; overflow-y: auto; }
+.featured-grid button { min-width: 0; border: 1px solid var(--line); background: var(--white); padding: 10px 11px; color: var(--ink); display: flex; align-items: center; justify-content: space-between; gap: 10px; text-align: left; font: 700 10px Arial, sans-serif; letter-spacing: .04em; }
+.featured-grid button > span { display: grid; gap: 3px; }
+.featured-grid button small { color: var(--muted); font-size: 8px; font-weight: 600; letter-spacing: .02em; text-transform: none; }
+.featured-grid button:hover,.featured-grid button.active { border-color: var(--orange); box-shadow: inset 0 0 0 1px var(--orange); }
+.featured-grid button.complete b { width: 18px; height: 18px; flex: 0 0 auto; display: grid; place-items: center; border-radius: 50%; background: var(--tile-line); color: var(--white); font-size: 11px; }
+.found-words-section { min-height: 0; display: grid; grid-template-rows: auto minmax(0, 1fr); }
+.found-list { display: grid; align-content: start; gap: 8px; padding-top: 4px; overflow-y: auto; }
 .found-list b { border: 2px solid var(--line); background: var(--white); padding: 8px 10px; font: 400 14px Georgia, serif; }
 .found-list p { margin: 0; color: var(--muted); font: italic 12px Georgia, serif; }
 .instructions-modal { position: relative; width: min(540px, 90vw); border: 1px solid var(--ink); background: var(--paper); box-shadow: 10px 10px 0 rgba(0,0,0,.18); padding: 30px; }
@@ -215,3 +223,5 @@ main header { background: color-mix(in srgb, var(--panel, var(--paper)) 72%, tra
 .public-config-heading { display: flex; align-items: center; justify-content: space-between; padding-bottom: 18px; border-bottom: 1px solid var(--line); }
 .public-config-heading h2 { margin: 5px 0 0; }
 .public-config-heading button { border: 1px solid var(--ink); background: transparent; padding: 9px 12px; font-size: 10px; font-weight: 800; }
+.public-layout .score-card strong { font-size: clamp(25px, 2.6vw, 42px); overflow-wrap: anywhere; display: flex; align-items: center; gap: 9px; }
+.puzzle-complete-mark { width: 24px; height: 24px; display: inline-grid; place-items: center; border-radius: 50%; background: var(--tile-line); color: var(--white); font: 800 14px/1 Arial, sans-serif; }

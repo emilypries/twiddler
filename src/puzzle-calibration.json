@@ -1,0 +1,8910 @@
+[
+  {
+    "patterns": [
+      "basketball",
+      "basketball",
+      "basketball",
+      "geometry-3",
+      "offset",
+      "basketball",
+      "basketball"
+    ],
+    "solutionRotations": [
+      1,
+      1,
+      3,
+      1,
+      4,
+      4,
+      4
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        5,
+        1
+      ]
+    ],
+    "safeRegions": [
+      [
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ],
+      [],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        1,
+        3,
+        4,
+        5
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 1,
+      "targetUsesCenter": true,
+      "targetTileCount": 4,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "geometry-3",
+      "offset",
+      "geometry-3",
+      "offset",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      0,
+      4,
+      1,
+      5,
+      4,
+      0,
+      2
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 4,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "geometry-3",
+      "basketball",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "basketball",
+      "basketball"
+    ],
+    "solutionRotations": [
+      3,
+      2,
+      5,
+      0,
+      1,
+      4,
+      1
+    ],
+    "targetSlots": [
+      [
+        0,
+        1
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 3,
+      "targetUsesCenter": false,
+      "targetTileCount": 4,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "geometry-3",
+      "basketball",
+      "geometry-3",
+      "basketball",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      5,
+      1,
+      1,
+      0,
+      3,
+      5,
+      1
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        4,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 4,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "offset",
+      "offset",
+      "geometry-3",
+      "offset",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      5,
+      4,
+      2,
+      3,
+      0,
+      1,
+      4
+    ],
+    "targetSlots": [
+      [
+        2,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 1,
+      "targetUsesCenter": false,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "basketball",
+      "geometry-3",
+      "geometry-3",
+      "geometry-3",
+      "offset",
+      "geometry-3"
+    ],
+    "solutionRotations": [
+      4,
+      3,
+      4,
+      5,
+      2,
+      2,
+      4
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        3
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 4,
+      "targetUsesCenter": true,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "basketball",
+      "offset",
+      "geometry-3",
+      "basketball",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      0,
+      1,
+      5,
+      4,
+      5,
+      3,
+      5
+    ],
+    "targetSlots": [
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        4,
+        5
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 1,
+      "targetUsesCenter": false,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "basketball",
+      "basketball",
+      "offset"
+    ],
+    "solutionRotations": [
+      0,
+      5,
+      2,
+      5,
+      4,
+      1,
+      0
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        1,
+        3
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 6,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "geometry-3",
+      "basketball",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "geometry-3",
+      "geometry-3"
+    ],
+    "solutionRotations": [
+      4,
+      5,
+      1,
+      3,
+      0,
+      0,
+      2
+    ],
+    "targetSlots": [
+      [
+        2,
+        3
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 5,
+      "targetUsesCenter": false,
+      "targetTileCount": 6,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "offset",
+      "basketball",
+      "geometry-3",
+      "offset",
+      "basketball",
+      "basketball"
+    ],
+    "solutionRotations": [
+      1,
+      4,
+      3,
+      0,
+      3,
+      3,
+      2
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        4,
+        4
+      ]
+    ],
+    "safeRegions": [
+      [
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ],
+      [],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 1,
+      "targetUsesCenter": true,
+      "targetTileCount": 7,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "basketball",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "geometry-3",
+      "offset"
+    ],
+    "solutionRotations": [
+      0,
+      4,
+      4,
+      3,
+      0,
+      2,
+      4
+    ],
+    "targetSlots": [
+      [
+        0,
+        2
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        6,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 3,
+      "targetUsesCenter": false,
+      "targetTileCount": 4,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "basketball",
+      "geometry-3",
+      "offset"
+    ],
+    "solutionRotations": [
+      1,
+      4,
+      2,
+      1,
+      4,
+      2,
+      4
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "safeRegions": [
+      [
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 3,
+      "targetUsesCenter": true,
+      "targetTileCount": 4,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "basketball",
+      "basketball",
+      "geometry-3",
+      "basketball",
+      "basketball",
+      "basketball"
+    ],
+    "solutionRotations": [
+      1,
+      4,
+      1,
+      2,
+      5,
+      2,
+      5
+    ],
+    "targetSlots": [
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        3
+      ],
+      [
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        4,
+        5
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 1,
+      "targetUsesCenter": false,
+      "targetTileCount": 4,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "offset",
+      "offset",
+      "geometry-3",
+      "basketball",
+      "offset",
+      "geometry-3"
+    ],
+    "solutionRotations": [
+      0,
+      4,
+      1,
+      1,
+      3,
+      0,
+      2
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "geometry-3",
+      "basketball",
+      "basketball"
+    ],
+    "solutionRotations": [
+      1,
+      1,
+      1,
+      0,
+      3,
+      0,
+      1
+    ],
+    "targetSlots": [
+      [
+        0,
+        2
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 3,
+      "targetUsesCenter": false,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "geometry-3",
+      "basketball",
+      "geometry-3",
+      "offset",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      2,
+      5,
+      3,
+      0,
+      5,
+      3,
+      3
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "safeRegions": [
+      [
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "offset",
+      "basketball",
+      "geometry-3",
+      "offset",
+      "offset",
+      "offset"
+    ],
+    "solutionRotations": [
+      1,
+      5,
+      3,
+      4,
+      4,
+      2,
+      1
+    ],
+    "targetSlots": [
+      [
+        5,
+        3
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 1,
+      "targetUsesCenter": false,
+      "targetTileCount": 6,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "geometry-3",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "basketball",
+      "geometry-3",
+      "basketball"
+    ],
+    "solutionRotations": [
+      4,
+      0,
+      2,
+      5,
+      0,
+      2,
+      3
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        4,
+        5
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 4,
+      "targetUsesCenter": true,
+      "targetTileCount": 6,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "basketball",
+      "basketball",
+      "geometry-3",
+      "offset",
+      "basketball",
+      "offset"
+    ],
+    "solutionRotations": [
+      4,
+      4,
+      4,
+      3,
+      2,
+      2,
+      3
+    ],
+    "targetSlots": [
+      [
+        4,
+        4
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 1,
+      "targetUsesCenter": true,
+      "targetTileCount": 7,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "basketball",
+      "geometry-3",
+      "geometry-3",
+      "offset",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      1,
+      2,
+      5,
+      4,
+      1,
+      3,
+      1
+    ],
+    "targetSlots": [
+      [
+        4,
+        1
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 7,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "geometry-3",
+      "geometry-3",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "geometry-3",
+      "basketball"
+    ],
+    "solutionRotations": [
+      2,
+      2,
+      4,
+      1,
+      0,
+      0,
+      1
+    ],
+    "targetSlots": [
+      [
+        5,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        5
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 5,
+      "targetUsesCenter": false,
+      "targetTileCount": 4,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "basketball",
+      "basketball",
+      "geometry-3",
+      "offset",
+      "basketball",
+      "offset"
+    ],
+    "solutionRotations": [
+      3,
+      3,
+      1,
+      1,
+      0,
+      5,
+      0
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        2,
+        3,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        4,
+        5
+      ],
+      [
+        2
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        5
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 1,
+      "targetUsesCenter": true,
+      "targetTileCount": 4,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "offset",
+      "offset",
+      "geometry-3"
+    ],
+    "solutionRotations": [
+      4,
+      5,
+      3,
+      0,
+      5,
+      5,
+      5
+    ],
+    "targetSlots": [
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 3,
+      "targetUsesCenter": false,
+      "targetTileCount": 4,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "offset",
+      "offset",
+      "geometry-3",
+      "basketball",
+      "geometry-3",
+      "geometry-3"
+    ],
+    "solutionRotations": [
+      0,
+      5,
+      3,
+      4,
+      3,
+      3,
+      5
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 3,
+      "targetUsesCenter": true,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "basketball",
+      "basketball",
+      "geometry-3",
+      "basketball",
+      "basketball",
+      "offset"
+    ],
+    "solutionRotations": [
+      3,
+      5,
+      5,
+      5,
+      1,
+      2,
+      3
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        4
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        2,
+        3,
+        5
+      ],
+      [
+        0,
+        1,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [],
+      [
+        0,
+        2,
+        3,
+        5
+      ],
+      [
+        0,
+        1,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        4
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 1,
+      "targetUsesCenter": true,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "offset",
+      "offset",
+      "geometry-3",
+      "offset",
+      "basketball",
+      "geometry-3"
+    ],
+    "solutionRotations": [
+      1,
+      1,
+      5,
+      2,
+      1,
+      5,
+      3
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        3
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "geometry-3",
+      "basketball",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "basketball",
+      "basketball"
+    ],
+    "solutionRotations": [
+      0,
+      1,
+      2,
+      1,
+      4,
+      5,
+      5
+    ],
+    "targetSlots": [
+      [
+        0,
+        2
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 3,
+      "targetUsesCenter": false,
+      "targetTileCount": 6,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "geometry-3",
+      "basketball",
+      "geometry-3",
+      "offset",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      0,
+      3,
+      4,
+      4,
+      5,
+      3,
+      1
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        6,
+        5
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        3,
+        5
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 6,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "offset",
+      "offset",
+      "geometry-3",
+      "offset",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      2,
+      0,
+      0,
+      1,
+      0,
+      0,
+      4
+    ],
+    "targetSlots": [
+      [
+        5,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        2,
+        4
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 1,
+      "targetUsesCenter": true,
+      "targetTileCount": 7,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "geometry-3",
+      "basketball",
+      "basketball",
+      "geometry-3",
+      "geometry-3",
+      "offset",
+      "geometry-3"
+    ],
+    "solutionRotations": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      2,
+      1
+    ],
+    "targetSlots": [
+      [
+        5,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        6,
+        3
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 4,
+      "targetUsesCenter": true,
+      "targetTileCount": 7,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "basketball",
+      "basketball",
+      "geometry-3",
+      "offset",
+      "basketball",
+      "basketball"
+    ],
+    "solutionRotations": [
+      1,
+      1,
+      3,
+      1,
+      4,
+      4,
+      4
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        2,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        6,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ],
+      [],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        1,
+        3,
+        4,
+        5
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 1,
+      "targetUsesCenter": true,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "geometry-3",
+      "offset",
+      "geometry-3",
+      "offset",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      0,
+      4,
+      1,
+      5,
+      4,
+      0,
+      2
+    ],
+    "targetSlots": [
+      [
+        6,
+        5
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 7,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "geometry-3",
+      "basketball",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "basketball",
+      "basketball"
+    ],
+    "solutionRotations": [
+      3,
+      2,
+      5,
+      0,
+      1,
+      4,
+      1
+    ],
+    "targetSlots": [
+      [
+        2,
+        4
+      ],
+      [
+        5,
+        0
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        0,
+        1
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 3,
+      "targetUsesCenter": true,
+      "targetTileCount": 7,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "geometry-3",
+      "basketball",
+      "geometry-3",
+      "basketball",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      5,
+      1,
+      1,
+      0,
+      3,
+      5,
+      1
+    ],
+    "targetSlots": [
+      [
+        5,
+        1
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        4,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 7,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "offset",
+      "offset",
+      "geometry-3",
+      "offset",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      5,
+      4,
+      2,
+      3,
+      0,
+      1,
+      4
+    ],
+    "targetSlots": [
+      [
+        6,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 1,
+      "targetUsesCenter": false,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "offset",
+      "offset",
+      "geometry-3",
+      "offset",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      5,
+      4,
+      2,
+      3,
+      0,
+      1,
+      4
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 1,
+      "targetUsesCenter": true,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "basketball",
+      "offset",
+      "geometry-3",
+      "basketball",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      0,
+      1,
+      5,
+      4,
+      5,
+      3,
+      5
+    ],
+    "targetSlots": [
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        4,
+        5
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 1,
+      "targetUsesCenter": false,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "basketball",
+      "basketball",
+      "offset"
+    ],
+    "solutionRotations": [
+      0,
+      5,
+      2,
+      5,
+      4,
+      1,
+      0
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 6,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "geometry-3",
+      "basketball",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "geometry-3",
+      "geometry-3"
+    ],
+    "solutionRotations": [
+      4,
+      5,
+      1,
+      3,
+      0,
+      0,
+      2
+    ],
+    "targetSlots": [
+      [
+        1,
+        3
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        6,
+        3
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 5,
+      "targetUsesCenter": false,
+      "targetTileCount": 6,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "offset",
+      "basketball",
+      "geometry-3",
+      "offset",
+      "basketball",
+      "basketball"
+    ],
+    "solutionRotations": [
+      1,
+      4,
+      3,
+      0,
+      3,
+      3,
+      2
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        4
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "safeRegions": [
+      [
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ],
+      [],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 1,
+      "targetUsesCenter": true,
+      "targetTileCount": 6,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "offset",
+      "offset",
+      "geometry-3",
+      "offset",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      5,
+      4,
+      2,
+      3,
+      0,
+      1,
+      4
+    ],
+    "targetSlots": [
+      [
+        6,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 1,
+      "targetUsesCenter": true,
+      "targetTileCount": 7,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "basketball",
+      "geometry-3",
+      "offset"
+    ],
+    "solutionRotations": [
+      1,
+      4,
+      2,
+      1,
+      4,
+      2,
+      4
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "safeRegions": [
+      [
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 3,
+      "targetUsesCenter": true,
+      "targetTileCount": 7,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "offset",
+      "offset",
+      "geometry-3",
+      "offset",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      5,
+      4,
+      2,
+      3,
+      0,
+      1,
+      4
+    ],
+    "targetSlots": [
+      [
+        0,
+        3
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 1,
+      "targetUsesCenter": true,
+      "targetTileCount": 7,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "offset",
+      "offset",
+      "geometry-3",
+      "basketball",
+      "offset",
+      "geometry-3"
+    ],
+    "solutionRotations": [
+      0,
+      4,
+      1,
+      1,
+      3,
+      0,
+      2
+    ],
+    "targetSlots": [
+      [
+        0,
+        2
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 7,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "geometry-3",
+      "basketball",
+      "basketball"
+    ],
+    "solutionRotations": [
+      1,
+      1,
+      1,
+      0,
+      3,
+      0,
+      1
+    ],
+    "targetSlots": [
+      [
+        6,
+        5
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 3,
+      "targetUsesCenter": false,
+      "targetTileCount": 4,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "geometry-3",
+      "basketball",
+      "geometry-3",
+      "offset",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      2,
+      5,
+      3,
+      0,
+      5,
+      3,
+      3
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 4,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "offset",
+      "basketball",
+      "geometry-3",
+      "offset",
+      "offset",
+      "offset"
+    ],
+    "solutionRotations": [
+      1,
+      5,
+      3,
+      4,
+      4,
+      2,
+      1
+    ],
+    "targetSlots": [
+      [
+        4,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 1,
+      "targetUsesCenter": false,
+      "targetTileCount": 4,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "geometry-3",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "basketball",
+      "geometry-3",
+      "basketball"
+    ],
+    "solutionRotations": [
+      4,
+      0,
+      2,
+      5,
+      0,
+      2,
+      3
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        4,
+        5
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 4,
+      "targetUsesCenter": true,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "basketball",
+      "basketball",
+      "geometry-3",
+      "offset",
+      "basketball",
+      "offset"
+    ],
+    "solutionRotations": [
+      4,
+      4,
+      4,
+      3,
+      2,
+      2,
+      3
+    ],
+    "targetSlots": [
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        6,
+        3
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        5
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 1,
+      "targetUsesCenter": false,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "basketball",
+      "geometry-3",
+      "geometry-3",
+      "offset",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      1,
+      2,
+      5,
+      4,
+      1,
+      3,
+      1
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        6,
+        5
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "offset",
+      "offset",
+      "geometry-3",
+      "offset",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      5,
+      4,
+      2,
+      3,
+      0,
+      1,
+      4
+    ],
+    "targetSlots": [
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        6,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 1,
+      "targetUsesCenter": false,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "offset",
+      "offset",
+      "geometry-3",
+      "offset",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      5,
+      4,
+      2,
+      3,
+      0,
+      1,
+      4
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        6,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 1,
+      "targetUsesCenter": true,
+      "targetTileCount": 6,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "offset",
+      "offset",
+      "geometry-3"
+    ],
+    "solutionRotations": [
+      4,
+      5,
+      3,
+      0,
+      5,
+      5,
+      5
+    ],
+    "targetSlots": [
+      [
+        5,
+        1
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 3,
+      "targetUsesCenter": false,
+      "targetTileCount": 6,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "offset",
+      "offset",
+      "geometry-3",
+      "basketball",
+      "geometry-3",
+      "geometry-3"
+    ],
+    "solutionRotations": [
+      0,
+      5,
+      3,
+      4,
+      3,
+      3,
+      5
+    ],
+    "targetSlots": [
+      [
+        6,
+        1
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ]
+    ],
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 3,
+      "targetUsesCenter": true,
+      "targetTileCount": 7,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "geometry-3",
+      "offset",
+      "geometry-3",
+      "offset",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      0,
+      4,
+      1,
+      5,
+      4,
+      0,
+      2
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ]
+    ],
+    "centerClues": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 4,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "basketball",
+      "geometry-3",
+      "geometry-3",
+      "geometry-3",
+      "offset",
+      "geometry-3"
+    ],
+    "solutionRotations": [
+      4,
+      3,
+      4,
+      5,
+      2,
+      2,
+      4
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        0,
+        5
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        3
+      ]
+    ],
+    "centerClues": [
+      [
+        2,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 4,
+      "targetUsesCenter": true,
+      "targetTileCount": 4,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "basketball",
+      "basketball",
+      "offset"
+    ],
+    "solutionRotations": [
+      0,
+      5,
+      2,
+      5,
+      4,
+      1,
+      0
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ]
+    ],
+    "centerClues": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 4,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "offset",
+      "offset",
+      "geometry-3",
+      "offset",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      5,
+      4,
+      2,
+      3,
+      0,
+      1,
+      4
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ]
+    ],
+    "centerClues": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 1,
+      "targetUsesCenter": true,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "basketball",
+      "geometry-3",
+      "offset"
+    ],
+    "solutionRotations": [
+      1,
+      4,
+      2,
+      1,
+      4,
+      2,
+      4
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        0
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ]
+    ],
+    "centerClues": [
+      [
+        1,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 3,
+      "targetUsesCenter": true,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "offset",
+      "offset",
+      "geometry-3",
+      "basketball",
+      "offset",
+      "geometry-3"
+    ],
+    "solutionRotations": [
+      0,
+      4,
+      1,
+      1,
+      3,
+      0,
+      2
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "centerClues": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "geometry-3",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "basketball",
+      "geometry-3",
+      "basketball"
+    ],
+    "solutionRotations": [
+      4,
+      0,
+      2,
+      5,
+      0,
+      2,
+      3
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        6,
+        3
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        4,
+        5
+      ]
+    ],
+    "centerClues": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 4,
+      "targetUsesCenter": true,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "basketball",
+      "geometry-3",
+      "geometry-3",
+      "offset",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      1,
+      2,
+      5,
+      4,
+      1,
+      3,
+      1
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        6,
+        5
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        4
+      ]
+    ],
+    "centerClues": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 6,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "offset",
+      "offset",
+      "geometry-3"
+    ],
+    "solutionRotations": [
+      4,
+      5,
+      3,
+      0,
+      5,
+      5,
+      5
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3
+      ]
+    ],
+    "centerClues": [
+      [
+        1,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 3,
+      "targetUsesCenter": true,
+      "targetTileCount": 6,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "offset",
+      "offset",
+      "geometry-3",
+      "offset",
+      "basketball",
+      "geometry-3"
+    ],
+    "solutionRotations": [
+      1,
+      1,
+      5,
+      2,
+      1,
+      5,
+      3
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        2,
+        4
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        6,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        3
+      ]
+    ],
+    "centerClues": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 7,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "geometry-3",
+      "offset",
+      "geometry-3",
+      "offset",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      0,
+      4,
+      1,
+      5,
+      4,
+      0,
+      2
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ]
+    ],
+    "centerClues": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 4,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "basketball",
+      "basketball",
+      "offset"
+    ],
+    "solutionRotations": [
+      0,
+      5,
+      2,
+      5,
+      4,
+      1,
+      0
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ]
+    ],
+    "centerClues": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 4,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "offset",
+      "offset",
+      "geometry-3"
+    ],
+    "solutionRotations": [
+      4,
+      5,
+      3,
+      0,
+      5,
+      5,
+      5
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        1
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3
+      ]
+    ],
+    "centerClues": [
+      [
+        1,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 3,
+      "targetUsesCenter": true,
+      "targetTileCount": 4,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "offset",
+      "offset",
+      "geometry-3",
+      "offset",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      5,
+      4,
+      2,
+      3,
+      0,
+      1,
+      4
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ]
+    ],
+    "centerClues": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 1,
+      "targetUsesCenter": true,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "geometry-3",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "basketball",
+      "geometry-3",
+      "basketball"
+    ],
+    "solutionRotations": [
+      4,
+      0,
+      2,
+      5,
+      0,
+      2,
+      3
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        4,
+        5
+      ]
+    ],
+    "centerClues": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 4,
+      "targetUsesCenter": true,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "geometry-3",
+      "offset",
+      "geometry-3",
+      "offset",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      0,
+      4,
+      1,
+      5,
+      4,
+      0,
+      2
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ]
+    ],
+    "centerClues": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "basketball",
+      "basketball",
+      "offset"
+    ],
+    "solutionRotations": [
+      0,
+      5,
+      2,
+      5,
+      4,
+      1,
+      0
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        5,
+        3
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ]
+    ],
+    "centerClues": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "basketball",
+      "geometry-3",
+      "geometry-3",
+      "geometry-3",
+      "offset",
+      "geometry-3"
+    ],
+    "solutionRotations": [
+      4,
+      3,
+      4,
+      5,
+      2,
+      2,
+      4
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        3
+      ]
+    ],
+    "centerClues": [
+      [
+        2,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 4,
+      "targetUsesCenter": true,
+      "targetTileCount": 6,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "geometry-3",
+      "basketball",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "geometry-3",
+      "geometry-3"
+    ],
+    "solutionRotations": [
+      4,
+      5,
+      1,
+      3,
+      0,
+      0,
+      2
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "centerClues": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 5,
+      "targetUsesCenter": true,
+      "targetTileCount": 6,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "basketball",
+      "geometry-3",
+      "geometry-3",
+      "geometry-3",
+      "offset",
+      "geometry-3"
+    ],
+    "solutionRotations": [
+      4,
+      3,
+      4,
+      5,
+      2,
+      2,
+      4
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        3
+      ]
+    ],
+    "centerClues": [
+      [
+        2,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 4,
+      "targetUsesCenter": true,
+      "targetTileCount": 7,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "basketball",
+      "basketball",
+      "offset"
+    ],
+    "solutionRotations": [
+      0,
+      5,
+      2,
+      5,
+      4,
+      1,
+      0
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        2,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ]
+    ],
+    "centerClues": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 4,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "offset",
+      "offset",
+      "geometry-3",
+      "offset",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      5,
+      4,
+      2,
+      3,
+      0,
+      1,
+      4
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ]
+    ],
+    "centerClues": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 1,
+      "targetUsesCenter": true,
+      "targetTileCount": 4,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "geometry-3",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "basketball",
+      "geometry-3",
+      "basketball"
+    ],
+    "solutionRotations": [
+      4,
+      0,
+      2,
+      5,
+      0,
+      2,
+      3
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        4,
+        5
+      ]
+    ],
+    "centerClues": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 4,
+      "targetUsesCenter": true,
+      "targetTileCount": 4,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "geometry-3",
+      "offset",
+      "geometry-3",
+      "offset",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      0,
+      4,
+      1,
+      5,
+      4,
+      0,
+      2
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        5,
+        4
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ]
+    ],
+    "centerClues": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 4,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "offset",
+      "offset",
+      "geometry-3"
+    ],
+    "solutionRotations": [
+      4,
+      5,
+      3,
+      0,
+      5,
+      5,
+      5
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3
+      ]
+    ],
+    "centerClues": [
+      [
+        1,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 3,
+      "targetUsesCenter": true,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "basketball",
+      "basketball",
+      "offset"
+    ],
+    "solutionRotations": [
+      0,
+      5,
+      2,
+      5,
+      4,
+      1,
+      0
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ]
+    ],
+    "centerClues": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "offset",
+      "offset",
+      "geometry-3",
+      "offset",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      5,
+      4,
+      2,
+      3,
+      0,
+      1,
+      4
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ]
+    ],
+    "centerClues": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 1,
+      "targetUsesCenter": true,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "geometry-3",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "basketball",
+      "geometry-3",
+      "basketball"
+    ],
+    "solutionRotations": [
+      4,
+      0,
+      2,
+      5,
+      0,
+      2,
+      3
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        4,
+        5
+      ]
+    ],
+    "centerClues": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 4,
+      "targetUsesCenter": true,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "geometry-3",
+      "offset",
+      "geometry-3",
+      "offset",
+      "offset",
+      "basketball"
+    ],
+    "solutionRotations": [
+      0,
+      4,
+      1,
+      5,
+      4,
+      0,
+      2
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ]
+    ],
+    "centerClues": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 2,
+      "targetUsesCenter": true,
+      "targetTileCount": 5,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "basketball",
+      "geometry-3",
+      "geometry-3",
+      "geometry-3",
+      "offset",
+      "geometry-3"
+    ],
+    "solutionRotations": [
+      4,
+      3,
+      4,
+      5,
+      2,
+      2,
+      4
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        4,
+        3
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        4
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        3
+      ]
+    ],
+    "centerClues": [
+      [
+        2,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 4,
+      "targetUsesCenter": true,
+      "targetTileCount": 6,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "geometry-3",
+      "basketball",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "geometry-3",
+      "geometry-3"
+    ],
+    "solutionRotations": [
+      4,
+      5,
+      1,
+      3,
+      0,
+      0,
+      2
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        0,
+        3
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "centerClues": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 5,
+      "targetUsesCenter": true,
+      "targetTileCount": 6,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "offset",
+      "basketball",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "geometry-3",
+      "offset"
+    ],
+    "solutionRotations": [
+      0,
+      4,
+      4,
+      3,
+      0,
+      2,
+      4
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        1,
+        5
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        5,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ]
+    ],
+    "centerClues": [
+      [
+        4,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 3,
+      "targetUsesCenter": true,
+      "targetTileCount": 6,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "basketball",
+      "geometry-3",
+      "offset"
+    ],
+    "solutionRotations": [
+      1,
+      4,
+      2,
+      1,
+      4,
+      2,
+      4
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        0,
+        0
+      ]
+    ],
+    "safeRegions": [
+      [
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ]
+    ],
+    "centerClues": [
+      [
+        2,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 3,
+      "targetUsesCenter": true,
+      "targetTileCount": 6,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "geometry-3",
+      "basketball",
+      "basketball"
+    ],
+    "solutionRotations": [
+      1,
+      1,
+      1,
+      0,
+      3,
+      0,
+      1
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        6,
+        5
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ]
+    ],
+    "centerClues": [
+      [
+        2,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 3,
+      "targetUsesCenter": true,
+      "targetTileCount": 6,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "basketball",
+      "geometry-3",
+      "geometry-3",
+      "geometry-3",
+      "offset",
+      "geometry-3"
+    ],
+    "solutionRotations": [
+      4,
+      3,
+      4,
+      5,
+      2,
+      2,
+      4
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        5
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        6,
+        2
+      ],
+      [
+        1,
+        4
+      ],
+      [
+        4,
+        3
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        1,
+        3
+      ]
+    ],
+    "centerClues": [
+      [
+        2,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 4,
+      "targetUsesCenter": true,
+      "targetTileCount": 6,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "geometry-3",
+      "geometry-3",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "geometry-3",
+      "basketball"
+    ],
+    "solutionRotations": [
+      2,
+      2,
+      4,
+      1,
+      0,
+      0,
+      1
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        4,
+        1
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        6,
+        4
+      ],
+      [
+        0,
+        1
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        5
+      ]
+    ],
+    "centerClues": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 5,
+      "targetUsesCenter": true,
+      "targetTileCount": 7,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "offset",
+      "offset",
+      "geometry-3"
+    ],
+    "solutionRotations": [
+      4,
+      5,
+      3,
+      0,
+      5,
+      5,
+      5
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        0,
+        4
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        5,
+        1
+      ],
+      [
+        1,
+        2
+      ],
+      [
+        4,
+        2
+      ],
+      [
+        6,
+        1
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        0,
+        2,
+        3
+      ]
+    ],
+    "centerClues": [
+      [
+        2,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 3,
+      "targetUsesCenter": true,
+      "targetTileCount": 7,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "basketball",
+      "offset",
+      "offset",
+      "geometry-3",
+      "basketball",
+      "geometry-3",
+      "geometry-3"
+    ],
+    "solutionRotations": [
+      0,
+      5,
+      3,
+      4,
+      3,
+      3,
+      5
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        5,
+        2
+      ],
+      [
+        6,
+        1
+      ],
+      [
+        2,
+        1
+      ],
+      [
+        4,
+        5
+      ],
+      [
+        0,
+        3
+      ],
+      [
+        1,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        4
+      ],
+      [
+        0,
+        2,
+        3,
+        4
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ]
+    ],
+    "centerClues": [
+      [
+        5,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 3,
+      "targetUsesCenter": true,
+      "targetTileCount": 7,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "geometry-3",
+      "basketball",
+      "offset",
+      "geometry-3",
+      "geometry-3",
+      "basketball",
+      "basketball"
+    ],
+    "solutionRotations": [
+      0,
+      1,
+      2,
+      1,
+      4,
+      5,
+      5
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        5,
+        4
+      ],
+      [
+        2,
+        2
+      ],
+      [
+        1,
+        0
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        6,
+        0
+      ],
+      [
+        4,
+        2
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        3,
+        4
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        3,
+        5
+      ],
+      [
+        1,
+        2,
+        3,
+        4,
+        5
+      ]
+    ],
+    "centerClues": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 3,
+      "targetUsesCenter": true,
+      "targetTileCount": 7,
+      "targetComponentSize": 7
+    }
+  },
+  {
+    "patterns": [
+      "geometry-3",
+      "basketball",
+      "basketball",
+      "geometry-3",
+      "geometry-3",
+      "offset",
+      "geometry-3"
+    ],
+    "solutionRotations": [
+      1,
+      1,
+      0,
+      0,
+      1,
+      2,
+      1
+    ],
+    "targetSlots": [
+      [
+        3,
+        0
+      ],
+      [
+        2,
+        3
+      ],
+      [
+        1,
+        1
+      ],
+      [
+        0,
+        2
+      ],
+      [
+        6,
+        3
+      ],
+      [
+        5,
+        3
+      ],
+      [
+        4,
+        1
+      ]
+    ],
+    "safeRegions": [
+      [
+        0,
+        1,
+        3
+      ],
+      [
+        0,
+        2,
+        3,
+        4,
+        5
+      ],
+      [
+        0,
+        1,
+        2,
+        4,
+        5
+      ],
+      [
+        1,
+        2,
+        3
+      ],
+      [
+        0,
+        2,
+        3
+      ],
+      [
+        0,
+        1,
+        2,
+        4
+      ],
+      [
+        0,
+        1,
+        2
+      ]
+    ],
+    "centerClues": [
+      [
+        0,
+        0,
+        1
+      ]
+    ],
+    "centerConstraint": true,
+    "metrics": {
+      "centerPattern": "geometry-3",
+      "centerPatternCopies": 4,
+      "targetUsesCenter": true,
+      "targetTileCount": 7,
+      "targetComponentSize": 7
+    }
+  }
+]
