@@ -221,7 +221,7 @@ main header { background: color-mix(in srgb, var(--panel, var(--paper)) 72%, tra
 .instruction-copy p { margin: 0; }
 .mobile-only,.mobile-puzzle-title { display: none; }
 .board-tools > .mobile-only { display: none !important; }
-.mobile-tile-controls,.mobile-confirm-action { display: none; }
+.mobile-tile-controls,.mobile-confirm-action,.mobile-target-word { display: none; }
 .mobile-puzzle-modal { position: relative; width: min(420px, 90vw); max-height: 90vh; overflow: auto; border: 1px solid var(--ink); background: var(--paper); box-shadow: 10px 10px 0 rgba(0,0,0,.18); padding: 28px; }
 .mobile-puzzle-modal h2 { margin: 6px 0 18px; font: 400 26px/1.1 Georgia, serif; }
 .mobile-puzzle-list { display: grid; gap: 7px; }
@@ -240,33 +240,43 @@ main header { background: color-mix(in srgb, var(--panel, var(--paper)) 72%, tra
 @media (max-width: 760px) {
   body { overflow-x: hidden; }
   main { min-height: 100dvh; }
-  .public-layout.game-layout { width: 100%; height: auto; min-height: 100dvh; display: grid; grid-template-columns: minmax(0,1fr); grid-template-rows: auto auto auto; grid-template-areas: "board" "hand" "words"; }
-  .public-layout .board-stage { grid-area: board; height: 48dvh; min-height: 380px; max-height: 460px; border-right: 0; border-bottom: 1px solid var(--ink); overflow: hidden; }
-  .public-layout .board { width: min(100%, 430px) !important; height: 100%; padding: 42px 8px 20px; }
+  .public-layout.game-layout { width: 100%; height: auto; min-height: 100dvh; display: grid; grid-template-columns: minmax(0,1fr); grid-template-rows: auto auto; grid-template-areas: "board" "hand"; align-content: start; }
+  .public-layout .board-stage { grid-area: board; height: 50dvh; min-height: 400px; max-height: 470px; border-right: 0; border-bottom: 1px solid var(--ink); overflow: hidden; }
+  .public-layout .board { width: min(100%, 430px) !important; height: 100%; padding: 40px 8px 62px; }
   .public-layout .left-rail { grid-area: hand; border-right: 0; border-bottom: 1px solid var(--ink); padding: 12px; overflow: visible; }
   .public-layout .score-card { display: none; }
   .public-layout .side-hand { min-height: 0; }
   .public-layout .side-hand .tray-title { margin-bottom: 3px; }
-  .public-layout .side-hand .hand-cards { grid-template-columns: repeat(4,minmax(0,1fr)); gap: 4px; padding: 2px; overflow: visible; }
+  .public-layout .side-hand .hand-cards { grid-template-columns: repeat(8,minmax(0,1fr)); gap: 4px 0; padding: 2px; overflow: visible; }
+  .public-layout .side-hand .hand-cards > * { grid-column: span 2; justify-self: center; }
+  .public-layout .side-hand .hand-cards > :nth-child(5) { grid-column: 2 / span 2; }
+  .public-layout .side-hand .hand-cards > :nth-child(6) { grid-column: 4 / span 2; }
+  .public-layout .side-hand .hand-cards > :nth-child(7) { grid-column: 6 / span 2; }
   .public-layout .side-hand .hand-tile,.public-layout .side-hand .hand-slot-empty { width: min(21vw,86px); height: min(23vw,94px); }
   .public-layout .side-hand .hand-tile svg { width: 100%; height: 100%; }
   .public-layout .side-hand .hand-actions { display: none; }
-  .public-layout .found-panel { grid-area: words; display: block; min-height: 100px; border-left: 0; padding: 12px; overflow: visible; }
+  .public-layout .found-panel { display: none; }
   .public-layout .featured-puzzles { display: none; }
   .public-layout .found-words-section { display: block; }
   .public-layout .found-header { padding-bottom: 7px; }
   .public-layout .found-list { display: flex; gap: 6px; padding: 0 0 3px; overflow-x: auto; }
   .public-layout .found-list b { flex: 0 0 auto; }
   .board-tools { top: 8px; left: 10px; right: 10px; justify-content: flex-end; gap: 6px; }
-  .mobile-puzzle-title { display: block; margin-right: auto; font: 700 18px/1 Georgia, serif; letter-spacing: .03em; }
+  .mobile-puzzle-title { display: block; margin-right: auto; font: 700 17px/1 Georgia, serif; letter-spacing: .02em; }
   .mobile-only,.board-tools > .mobile-only { display: inline-flex !important; align-items: center; justify-content: center; }
   .board-tools > .mobile-puzzle-button:not(.save-board) { width: auto; min-width: 70px; padding: 0 11px; border-radius: 18px; font-size: 9px; letter-spacing: .04em; }
   .confirm-bar.puzzle-confirm { display: none; }
   .cell.puzzle-selected .tile-paper { stroke: var(--orange); stroke-width: 3.5px; filter: drop-shadow(0 0 3px color-mix(in srgb,var(--orange) 70%,transparent)); }
-  .mobile-tile-controls { position: absolute; z-index: 9; display: flex; transform: translate(-50%,-50%); gap: 3px; padding: 3px; border: 1px solid var(--ink); border-radius: 22px; background: var(--panel); box-shadow: 2px 3px 0 rgba(32,37,31,.18); }
+  .mobile-tile-controls { position: absolute; z-index: 9; left: 10px; bottom: 9px; display: flex; gap: 3px; padding: 3px; border: 1px solid var(--ink); border-radius: 22px; background: var(--panel); box-shadow: 2px 3px 0 rgba(32,37,31,.18); }
   .mobile-tile-controls button { width: 34px; height: 34px; border: 0; border-radius: 50%; background: var(--tile-line); color: var(--white); font-size: 18px; font-weight: 800; line-height: 1; }
   .mobile-tile-controls button:nth-child(2) { background: var(--orange); font-size: 17px; }
-  .mobile-confirm-action { position: absolute; z-index: 8; right: 10px; bottom: 8px; display: block; }
-  .mobile-confirm-action button { min-height: 38px; border: 1px solid var(--ink); padding: 8px 12px; font-size: 9px; font-weight: 800; box-shadow: 2px 2px 0 rgba(32,37,31,.16); }
+  .mobile-target-word { position: absolute; z-index: 7; display: block; left: 50%; bottom: 17px; transform: translateX(-50%); color: var(--ink); font: 900 22px/1 Arial,sans-serif; letter-spacing: .12em; }
+  .mobile-confirm-action { position: absolute; z-index: 8; right: 10px; bottom: 9px; display: block; width: 42px; height: 42px; transition: width .28s ease; }
+  .mobile-confirm-action.won { width: 112px; }
+  .mobile-confirm-action button { width: 100%; height: 42px; min-height: 42px; border: 1px solid var(--ink); border-radius: 50%; padding: 0; font-size: 20px; font-weight: 900; box-shadow: 2px 2px 0 rgba(32,37,31,.16); white-space: nowrap; transition: border-radius .28s ease,font-size .2s ease; }
+  .mobile-confirm-action.won button { border-radius: 22px; font-size: 9px; }
+  .mobile-confirm-action.error button { animation: confirm-error .24s 4; }
   .instructions-modal,.mobile-puzzle-modal { width: calc(100vw - 24px); max-height: calc(100dvh - 24px); overflow: auto; padding: 24px 20px; box-shadow: 6px 6px 0 rgba(0,0,0,.18); }
 }
+
+@keyframes confirm-error { 50% { background: #c9534c; border-color: #8d302b; transform: scale(1.08); } }
