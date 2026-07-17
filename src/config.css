@@ -141,11 +141,6 @@
 }
 
 .wall { stroke: var(--tile-line, var(--green)); }
-.tile-outline { fill: none; stroke: var(--ink); stroke-width: 1.25; pointer-events: none; }
-.empty-hex-overlay { fill: none; stroke: #aaa99f; stroke-width: 1; stroke-dasharray: 2.5 3; pointer-events: none; }
-.board .tile-outline { display: none; }
-.board-solid-outline { fill: none; stroke: var(--ink); stroke-width: 1.25; pointer-events: none; }
-.board-selection-outline { fill: none; stroke: var(--orange); stroke-width: 3.5; pointer-events: none; filter: drop-shadow(0 0 3px color-mix(in srgb,var(--orange) 70%,transparent)); }
 .letter-disc { stroke: var(--tile-line, var(--green)); }
 .region-fill.dead { fill: var(--void, #deded9); }
 .history.word-list { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0; }
@@ -163,8 +158,9 @@
 .side-hand .hand-tile { width: 103px; height: 110px; justify-self: center; border: 0; background: transparent; padding: 2px; }
 .side-hand .hand-tile svg { width: 95px; height: 95px; }
 .side-hand .hand-slot-empty { width: 103px; height: 110px; justify-self: center; }
-.side-hand .hand-tile.selected { border: 0; transform: translateY(-4px); }
-.side-hand .hand-tile.selected .tile-outline { stroke: var(--orange); stroke-width: 3px; }
+.side-hand .hand-tile.selected { border: 0; transform: none; }
+.side-hand .hand-tile.selected .tile-paper,
+.cell.puzzle-selected .tile-paper { stroke: var(--orange); stroke-width: 3px; filter: drop-shadow(0 0 3px color-mix(in srgb,var(--orange) 70%,transparent)); }
 .side-hand .hand-tile.dragging { opacity: 0; }
 .native-drag-ghost { position: fixed; left: -1000px; top: -1000px; width: 1px; height: 1px; opacity: 0; pointer-events: none; }
 .tile-drag-follow { position: fixed; transform: translate(-50%, -50%); pointer-events: none; z-index: 10000; transition: width 180ms ease, height 180ms ease; filter: drop-shadow(0 5px 5px rgba(32,37,31,.2)); }
@@ -182,7 +178,7 @@
 .theme-panel { padding-bottom: 18px; border-bottom: 1px solid var(--line); }
 .theme-panel select { margin-top: 12px; font-size: 10px; }
 .theme-panel > p:last-child { margin: 9px 0 0; color: var(--muted); font-size: 9px; line-height: 1.4; }
-.tile-svg .letter { font-size: 12px; font-weight: 900; fill: #20251f; stroke: none; paint-order: normal; }
+.tile-svg .letter { font-size: 12px; font-weight: 900; paint-order: stroke; stroke: var(--white); stroke-width: 2.5px; stroke-linejoin: round; }
 .word-tray { grid-column: 1 / -1; border-top: 1px solid var(--ink); display: grid; grid-template-columns: 130px 1fr; align-items: center; padding: 7px 18px; gap: 14px; background: #eae4d8; min-height: 0; }
 .word-tray > div:first-child span { font-size: 10px; color: var(--muted); }
 .bottom-words { display: flex; align-items: center; gap: 8px; overflow-x: auto; min-width: 0; }
@@ -203,6 +199,9 @@ main header { background: color-mix(in srgb, var(--panel, var(--paper)) 72%, tra
 .public-layout .side-hand .tray-title { display: block; }
 .board-tools { position: absolute; z-index: 4; top: 18px; right: 18px; display: flex; align-items: center; gap: 8px; }
 .board-tools > button:not(.save-board) { width: 34px; height: 34px; border: 1px solid var(--ink); border-radius: 50%; background: var(--tile-line); color: var(--white); display: grid; place-items: center; padding: 0; font-size: 16px; font-weight: 800; line-height: 1; }
+.board-tools > .hint-button:not(.save-board) { width: auto; min-width: 58px; border-radius: 18px; padding: 0 14px; font-size: 10px; letter-spacing: .08em; }
+.board-tools > .hint-button.active:not(.save-board) { background: var(--orange); border-color: var(--orange); }
+.board-tools > .supertile-crown:not(.save-board) { background: var(--orange); border-color: var(--orange); font: 700 19px/1 Georgia,serif; }
 .board-tools > button:hover { transform: translateY(-1px); box-shadow: 0 2px 0 color-mix(in srgb, var(--ink) 25%, transparent); }
 .side-hand .end-game.restart { background: var(--orange); border-color: var(--orange); color: white; }
 .found-panel { min-width: 0; padding: 24px 18px; background: var(--panel); overflow: hidden; display: grid; grid-template-rows: auto minmax(0, 1fr); gap: 24px; }
@@ -211,10 +210,11 @@ main header { background: color-mix(in srgb, var(--panel, var(--paper)) 72%, tra
 .featured-puzzles span,.found-header span { color: var(--muted); font-size: 9px; }
 .featured-grid { display: grid; grid-template-columns: 1fr; gap: 7px; max-height: 410px; overflow-y: auto; }
 .featured-grid button { min-width: 0; border: 1px solid var(--line); background: var(--white); padding: 10px 11px; color: var(--ink); display: flex; align-items: center; justify-content: space-between; gap: 10px; text-align: left; font: 700 10px Arial, sans-serif; letter-spacing: .04em; }
-.featured-grid button > span { display: grid; gap: 3px; }
-.featured-grid button small { color: var(--muted); font-size: 8px; font-weight: 600; letter-spacing: .02em; text-transform: none; }
 .featured-grid button:hover,.featured-grid button.active { border-color: var(--orange); box-shadow: inset 0 0 0 1px var(--orange); }
 .featured-grid button.complete b { width: 18px; height: 18px; flex: 0 0 auto; display: grid; place-items: center; border-radius: 50%; background: var(--tile-line); color: var(--white); font-size: 11px; }
+.completion-thumbnail { display: block; width: 58px; height: 52px; flex: 0 0 auto; overflow: visible; }
+.featured-grid button.complete { min-height: 60px; padding-block: 4px; }
+.view-super-tile { width: 100%; margin-top: 10px; border: 1px solid var(--orange); background: var(--orange); color: white; padding: 10px; font-size: 10px; font-weight: 800; }
 .found-words-section { min-height: 0; display: grid; grid-template-rows: auto minmax(0, 1fr); }
 .found-list { display: grid; align-content: start; gap: 8px; padding-top: 4px; overflow-y: auto; }
 .found-list b { border: 2px solid var(--line); background: var(--white); padding: 8px 10px; font: 400 14px Georgia, serif; }
@@ -222,32 +222,57 @@ main header { background: color-mix(in srgb, var(--panel, var(--paper)) 72%, tra
 .instructions-modal { position: relative; width: min(540px, 90vw); border: 1px solid var(--ink); background: var(--paper); box-shadow: 10px 10px 0 rgba(0,0,0,.18); padding: 30px; }
 .instructions-modal h2 { margin: 6px 0 18px; font: 400 28px/1.1 Georgia, serif; }
 .instructions-modal ol { margin: 0 0 22px; padding-left: 22px; display: grid; gap: 11px; color: var(--ink); font-size: 12px; line-height: 1.45; }
-.instruction-copy { margin-bottom: 22px; display: grid; gap: 12px; color: var(--ink); font-size: 12px; line-height: 1.5; }
-.instruction-copy p { margin: 0; }
-.mobile-only,.mobile-puzzle-title { display: none; }
-.board-tools > .mobile-only { display: none !important; }
-.mobile-tile-controls,.mobile-confirm-action,.mobile-target-word { display: none; }
-.mobile-puzzle-modal { position: relative; width: min(420px, 90vw); max-height: 90vh; overflow: auto; border: 1px solid var(--ink); background: var(--paper); box-shadow: 10px 10px 0 rgba(0,0,0,.18); padding: 28px; }
-.mobile-puzzle-modal h2 { margin: 6px 0 18px; font: 400 26px/1.1 Georgia, serif; }
-.mobile-puzzle-list { display: grid; gap: 7px; }
-.mobile-puzzle-list button { min-height: 44px; border: 1px solid var(--line); background: var(--white); padding: 10px 12px; display: flex; align-items: center; justify-content: space-between; font: 700 11px Arial, sans-serif; letter-spacing: .04em; }
-.mobile-puzzle-list button.active { border-color: var(--orange); box-shadow: inset 0 0 0 1px var(--orange); }
-.mobile-puzzle-list button.complete b { width: 20px; height: 20px; display: grid; place-items: center; border-radius: 50%; background: var(--tile-line); color: var(--white); }
 .modal-close { position: absolute; top: 12px; right: 12px; width: 30px; height: 30px; border: 0; background: transparent; font-size: 24px; color: var(--muted); }
 .lab.public-config { display: block; max-width: 760px; margin: 32px auto; }
 .public-config .lab-card { width: 100%; }
 .public-config-heading { display: flex; align-items: center; justify-content: space-between; padding-bottom: 18px; border-bottom: 1px solid var(--line); }
 .public-config-heading h2 { margin: 5px 0 0; }
 .public-config-heading button { border: 1px solid var(--ink); background: transparent; padding: 9px 12px; font-size: 10px; font-weight: 800; }
-.public-layout .score-card strong { font-size: clamp(25px, 2.6vw, 42px); overflow-wrap: anywhere; display: flex; align-items: center; gap: 9px; }
-.puzzle-complete-mark { width: 24px; height: 24px; display: inline-grid; place-items: center; border-radius: 50%; background: var(--tile-line); color: var(--white); font: 800 14px/1 Arial, sans-serif; }
+.puzzle-picker { min-height: 100vh; padding: 34px clamp(24px, 6vw, 90px); background: var(--paper); }
+.puzzle-picker-heading { display: flex; justify-content: space-between; align-items: start; gap: 30px; max-width: 1100px; margin: 0 auto 30px; padding-bottom: 24px; border-bottom: 1px solid var(--ink); }
+.puzzle-picker-heading h2 { margin: 6px 0 8px; font: 400 38px/1 Georgia, serif; }
+.puzzle-picker-heading p:last-child { margin: 0; color: var(--muted); font-size: 12px; }
+.puzzle-picker-heading button { border: 1px solid var(--ink); background: transparent; padding: 10px 14px; font-size: 10px; font-weight: 800; }
+.puzzle-picker-actions { display: flex; gap: 8px; }
+.puzzle-picker-actions .clear-progress,.mobile-clear-progress { border-color: var(--bad); color: #8d302b; }
+.puzzle-picker > section { max-width: 1100px; margin: 0 auto 28px; }
+.puzzle-picker > section > div:first-child { display: flex; align-items: baseline; gap: 12px; margin-bottom: 10px; }
+.puzzle-picker h3 { margin: 0; text-transform: uppercase; letter-spacing: .16em; font-size: 11px; }
+.puzzle-picker section span { color: var(--muted); font-size: 10px; }
+.puzzle-grid { display: grid; grid-template-columns: repeat(5, minmax(120px, 1fr)); gap: 9px; }
+.puzzle-grid button { display: grid; gap: 5px; text-align: left; border: 1px solid var(--line); background: var(--white); padding: 13px; color: var(--ink); }
+.puzzle-grid button:hover,.puzzle-grid button.active { border-color: var(--orange); box-shadow: inset 0 0 0 1px var(--orange); }
+.puzzle-grid b { font: 400 16px Georgia, serif; }
+.puzzle-grid b i { margin-left: 7px; color: var(--tile-line); font: 800 12px Arial,sans-serif; }
+.puzzle-grid small { color: var(--muted); font-size: 9px; }
+.public-layout .score-card strong { font-size: clamp(25px, 2.6vw, 42px); overflow-wrap: anywhere; }
+
+.mobile-only,.mobile-puzzle-title,.mobile-tile-controls,.mobile-confirm-action,.mobile-target-word { display: none; }
+.board-tools > .mobile-only { display: none !important; }
+.mobile-puzzle-modal { position: relative; width: min(420px,90vw); max-height: 90vh; overflow: auto; border: 1px solid var(--ink); background: var(--paper); box-shadow: 10px 10px 0 rgba(0,0,0,.18); padding: 28px; }
+.mobile-puzzle-modal h2 { margin: 6px 0 18px; font: 400 26px/1.1 Georgia,serif; }
+.mobile-puzzle-list { display: grid; gap: 7px; }
+.mobile-puzzle-list button { min-height: 44px; border: 1px solid var(--line); background: var(--white); padding: 10px 12px; display: flex; align-items: center; justify-content: space-between; font: 700 11px Arial,sans-serif; letter-spacing: .04em; }
+.mobile-puzzle-list button.active { border-color: var(--orange); box-shadow: inset 0 0 0 1px var(--orange); }
+.mobile-puzzle-list button.complete b { width: 20px; height: 20px; display: grid; place-items: center; border-radius: 50%; background: var(--tile-line); color: var(--white); }
+.mobile-puzzle-list .completion-thumbnail { width: 62px; height: 55px; }
+.mobile-clear-progress { width: 100%; margin-top: 16px; background: transparent; padding: 10px; font-size: 10px; font-weight: 800; }
+.super-tile-modal { position: relative; width: min(720px,94vw); max-height: 94vh; overflow: auto; border: 1px solid var(--ink); background: var(--paper); box-shadow: 10px 10px 0 rgba(0,0,0,.2); padding: 28px; text-align: center; }
+.super-tile-modal h2 { margin: 2px 0 8px; font: 400 34px/1 Georgia,serif; }
+.super-tile-modal > p:not(.step) { margin: 0 0 18px; color: var(--muted); font-size: 12px; }
+.super-tile { width: min(560px,82vw); aspect-ratio: 1; margin: 2px auto 8px; display: grid; place-items: center; }
+.super-tile img { display: block; width: 100%; height: 100%; object-fit: contain; user-select: none; -webkit-touch-callout: default; filter: drop-shadow(0 0 5px color-mix(in srgb,var(--orange) 82%,transparent)) drop-shadow(0 0 14px color-mix(in srgb,var(--orange) 58%,transparent)); }
+.super-tile > span { color: var(--muted); font-size: 11px; }
+.super-tile-message { margin: 2px 0 16px !important; font-size: 12px !important; }
+.super-tile-source { position: fixed; left: -10000px; top: -10000px; width: 1200px; height: 1200px; pointer-events: none; }
+.super-tile-modal > .primary { min-width: 110px; }
 
 @media (max-width: 760px) {
   body { overflow-x: hidden; }
   main { min-height: 100dvh; }
   .public-layout.game-layout { width: 100%; height: auto; min-height: 100dvh; display: grid; grid-template-columns: minmax(0,1fr); grid-template-rows: auto auto; grid-template-areas: "board" "hand"; align-content: start; }
   .public-layout .board-stage { grid-area: board; height: 50dvh; min-height: 400px; max-height: 470px; border-right: 0; border-bottom: 1px solid var(--ink); overflow: hidden; }
-  .public-layout .board { width: min(100%, 430px) !important; height: 100%; padding: 40px 8px 62px; }
+  .public-layout .board { width: min(100%,430px) !important; height: 100%; padding: 40px 8px 62px; }
   .public-layout .left-rail { grid-area: hand; border-right: 0; border-bottom: 0; padding: 8px; overflow: visible; }
   .public-layout .score-card { display: none; }
   .public-layout .side-hand { min-height: 0; }
@@ -259,21 +284,16 @@ main header { background: color-mix(in srgb, var(--panel, var(--paper)) 72%, tra
   .public-layout .side-hand .hand-cards > :nth-child(7) { grid-column: 6 / span 2; }
   .public-layout .side-hand .hand-tile,.public-layout .side-hand .hand-slot-empty { width: min(23vw,94px); height: min(25vw,102px); }
   .public-layout .side-hand .hand-tile svg { width: 100%; height: 100%; }
-  .public-layout .side-hand .hand-actions { display: none; }
-  .public-layout .found-panel { display: none; }
-  .public-layout .featured-puzzles { display: none; }
-  .public-layout .found-words-section { display: block; }
-  .public-layout .found-header { padding-bottom: 7px; }
-  .public-layout .found-list { display: flex; gap: 6px; padding: 0 0 3px; overflow-x: auto; }
-  .public-layout .found-list b { flex: 0 0 auto; }
-  .board-tools { top: 8px; left: 10px; right: 10px; justify-content: flex-end; gap: 6px; }
+  .public-layout .side-hand .hand-actions,.public-layout .found-panel { display: none; }
+  .board-tools { top: 8px; left: 10px; right: 10px; justify-content: flex-end; gap: 5px; }
   .mobile-puzzle-title { display: block; margin-right: auto; font: 900 17px/1 Arial,sans-serif; letter-spacing: .02em; }
   .mobile-only,.board-tools > .mobile-only { display: inline-flex !important; align-items: center; justify-content: center; }
-  .board-tools > .mobile-puzzle-button:not(.save-board) { width: auto; min-width: 70px; padding: 0 11px; border-radius: 18px; font-size: 9px; letter-spacing: .04em; }
-  .board-tools .save-board { display: none; }
-  .confirm-bar.puzzle-confirm { display: none; }
-  .mobile-tile-controls { position: absolute; z-index: 9; left: 10px; bottom: 9px; display: flex; gap: 3px; padding: 3px; border: 1px solid var(--ink); border-radius: 22px; background: var(--panel); box-shadow: 2px 3px 0 rgba(32,37,31,.18); }
-  .mobile-tile-controls button { width: 38px; height: 38px; display: grid; place-items: center; border: 0; border-radius: 50%; background: var(--tile-line); color: var(--white); padding: 3px; line-height: 1; }
+  .desktop-only { display: none !important; }
+  .board-tools > .mobile-puzzle-button:not(.save-board) { width: auto; min-width: 64px; padding: 0 9px; border-radius: 18px; font-size: 9px; letter-spacing: .04em; }
+  .board-tools > .hint-button:not(.save-board) { min-width: 48px; padding: 0 9px; }
+  .board-tools .save-board,.confirm-bar.puzzle-confirm { display: none; }
+  .mobile-tile-controls { position: absolute; z-index: 9; left: 10px; bottom: 9px; display: flex; gap: 3px; padding: 3px; border: 1px solid var(--ink); border-radius: 24px; background: var(--panel); box-shadow: 2px 3px 0 rgba(32,37,31,.18); }
+  .mobile-tile-controls button { width: 38px; height: 38px; display: grid; place-items: center; border: 0; border-radius: 50%; background: var(--tile-line); color: var(--white); padding: 3px; }
   .mobile-tile-controls button:nth-child(2) { background: var(--orange); }
   .mobile-tile-controls button:disabled { background: #aaa99f; color: #e8e5dc; opacity: .65; }
   .control-icon { width: 30px; height: 30px; fill: none; stroke: currentColor; stroke-width: 2.4; stroke-linecap: round; stroke-linejoin: round; }
@@ -282,10 +302,11 @@ main header { background: color-mix(in srgb, var(--panel, var(--paper)) 72%, tra
   .mobile-confirm-action { position: absolute; z-index: 8; right: 10px; bottom: 9px; display: block; width: 42px; height: 42px; transition: width .28s ease; }
   .mobile-confirm-action.won { width: 112px; }
   .mobile-confirm-action button { width: 100%; height: 42px; min-height: 42px; border: 1px solid var(--ink); border-radius: 50%; padding: 0; font-size: 20px; font-weight: 900; box-shadow: 2px 2px 0 rgba(32,37,31,.16); white-space: nowrap; transition: border-radius .28s ease,font-size .2s ease; }
-  .mobile-confirm-action.won button { border-radius: 22px; font-size: 9px; }
-  .mobile-confirm-action.won .primary { background: var(--orange) !important; }
+  .mobile-confirm-action.won button { border-radius: 22px; font-size: 9px; background: var(--orange) !important; }
   .mobile-confirm-action.error button { animation: confirm-error .24s 4; }
   .instructions-modal,.mobile-puzzle-modal { width: calc(100vw - 24px); max-height: calc(100dvh - 24px); overflow: auto; padding: 24px 20px; box-shadow: 6px 6px 0 rgba(0,0,0,.18); }
+  .super-tile-modal { width: calc(100vw - 18px); padding: 22px 10px; }
+  .super-tile { width: min(94vw,560px); }
 }
 
 @keyframes confirm-error { 50% { background: #c9534c; border-color: #8d302b; transform: scale(1.08); } }

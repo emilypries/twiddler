@@ -24,7 +24,7 @@ function dseg(px:number,py:number,ax:number,ay:number,bx:number,by:number){ cons
 function cubic(p0:{x:number;y:number},p1:{x:number;y:number},p2:{x:number;y:number},p3:{x:number;y:number},t:number){ const u=1-t; return {x:u*u*u*p0.x+3*u*u*t*p1.x+3*u*t*t*p2.x+t*t*t*p3.x,y:u*u*u*p0.y+3*u*u*t*p1.y+3*u*t*t*p2.y+t*t*t*p3.y}; }
 
 export function analyzePattern(pattern:Pattern):PatternGeometry {
-  const n=50, scale=100/n, grid=new Int16Array(n*n).fill(-2);
+  const n=100, scale=100/n, grid=new Int16Array(n*n).fill(-2);
   for(let y=0;y<n;y++) for(let x=0;x<n;x++){ const px=(x+.5)*scale,py=(y+.5)*scale; if(!inside(px,py)) continue; let wall=false;
     for(const [a,b] of pattern.pairs){ const p0=MID[a-1],p3=MID[b-1],k=.58,p1={x:p0.x+(50-p0.x)*k,y:p0.y+(50-p0.y)*k},p2={x:p3.x+(50-p3.x)*k,y:p3.y+(50-p3.y)*k}; let prev=p0; for(let s=1;s<=36;s++){ const cur=cubic(p0,p1,p2,p3,s/36); if(dseg(px,py,prev.x,prev.y,cur.x,cur.y)<2.45){wall=true;break;} prev=cur;} if(wall) break; }
     grid[y*n+x]=wall?-1:0;
@@ -34,7 +34,7 @@ export function analyzePattern(pattern:Pattern):PatternGeometry {
     for(let h=0;h<queue.length;h++){ const at=queue[h],x=at%n,y=Math.floor(at/n); cells.push(at);sx+=x;sy+=y; for(const [dx,dy] of [[1,0],[-1,0],[0,1],[0,-1]]){const nx=x+dx,ny=y+dy,ni=ny*n+nx;if(nx>=0&&ny>=0&&nx<n&&ny<n&&grid[ni]===0){grid[ni]=id;queue.push(ni);}} }
     if(cells.length>12) comps.push({cells,sx,sy});
   }
-  const regions=comps.map((comp,ri)=>{ const set=new Set(comp.cells); let mask=""; for(let y=0;y<n;y++){ let run=-1; for(let x=0;x<=n;x++){const on=x<n&&set.has(y*n+x); if(on&&run<0)run=x; if(!on&&run>=0){mask+=`M${run*scale} ${y*scale}h${(x-run)*scale}v${scale}h-${(x-run)*scale}z`;run=-1;}}} return {id:ri,cx:(comp.sx/comp.cells.length+.5)*scale,cy:(comp.sy/comp.cells.length+.5)*scale,mask,ports:[] as [number,number][]}; });
+  const regions=comps.map((comp,ri)=>{ const set=new Set(comp.cells);for(const at of comp.cells){const x=at%n,y=Math.floor(at/n);for(const [dx,dy] of [[-1,-1],[0,-1],[1,-1],[-1,0],[1,0],[-1,1],[0,1],[1,1]]){const nx=x+dx,ny=y+dy;if(nx>=0&&ny>=0&&nx<n&&ny<n&&grid[ny*n+nx]<0)set.add(ny*n+nx);}}let mask=""; for(let y=0;y<n;y++){ let run=-1; for(let x=0;x<=n;x++){const on=x<n&&set.has(y*n+x); if(on&&run<0)run=x; if(!on&&run>=0){mask+=`M${run*scale} ${y*scale}h${(x-run)*scale}v${scale}h-${(x-run)*scale}z`;run=-1;}}} return {id:ri,cx:(comp.sx/comp.cells.length+.5)*scale,cy:(comp.sy/comp.cells.length+.5)*scale,mask,ports:[] as [number,number][]}; });
   function regionAt(px:number,py:number){ let x=Math.max(0,Math.min(n-1,Math.floor(px/scale))),y=Math.max(0,Math.min(n-1,Math.floor(py/scale))); const target=grid[y*n+x]; if(target>0){const compIndex=comps.findIndex(c=>grid[c.cells[0]]===target);if(compIndex>=0)return compIndex;} let best=-1,bd=1e9; regions.forEach((r,i)=>{const d=Math.hypot(r.cx-px,r.cy-py);if(d<bd){bd=d;best=i;}});return best; }
   HEX.forEach((a,e)=>{const b=HEX[(e+1)%6];[.25,.75].forEach((t,p)=>{let x=a[0]+(b[0]-a[0])*t,y=a[1]+(b[1]-a[1])*t;x+=(50-x)*.07;y+=(50-y)*.07;const ri=regionAt(x,y);if(ri>=0)regions[ri].ports.push([e,p]);});});
   return {regions};

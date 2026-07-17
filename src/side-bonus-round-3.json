@@ -1,0 +1,402 @@
+[
+  {
+    "word": "CHIME",
+    "tier": "medium",
+    "template": 34,
+    "duplicateClues": 4,
+    "totalLetters": 27,
+    "presetLetters": [
+      [
+        "C",
+        "E",
+        "M",
+        "H",
+        ""
+      ],
+      [
+        "H",
+        "Y",
+        "B",
+        "",
+        "M"
+      ],
+      [
+        "L",
+        "T",
+        "E",
+        "G",
+        "A"
+      ],
+      [
+        "",
+        "H",
+        "",
+        "I"
+      ],
+      [
+        "W",
+        "",
+        "",
+        "E",
+        "D"
+      ],
+      [
+        "C",
+        "N",
+        "B",
+        "I",
+        "C"
+      ],
+      [
+        "O",
+        "R",
+        "C",
+        "H",
+        "P",
+        "T"
+      ]
+    ]
+  },
+  {
+    "word": "QUILT",
+    "tier": "medium",
+    "template": 48,
+    "duplicateClues": 4,
+    "totalLetters": 27,
+    "presetLetters": [
+      [
+        "Q",
+        "",
+        "R",
+        "R",
+        "L"
+      ],
+      [
+        "N",
+        "R",
+        "Q",
+        "O",
+        "O",
+        "I"
+      ],
+      [
+        "N",
+        "Q",
+        "I",
+        "O",
+        "",
+        "L"
+      ],
+      [
+        "",
+        "S",
+        "U",
+        ""
+      ],
+      [
+        "U",
+        "R",
+        "",
+        "G",
+        ""
+      ],
+      [
+        "F",
+        "U",
+        "U",
+        "",
+        "G",
+        "E"
+      ],
+      [
+        "",
+        "C",
+        "Y",
+        "T",
+        "L"
+      ]
+    ]
+  },
+  {
+    "word": "MELODY",
+    "tier": "medium",
+    "template": 52,
+    "duplicateClues": 4,
+    "totalLetters": 28,
+    "presetLetters": [
+      [
+        "I",
+        "T",
+        "I",
+        "G",
+        "E",
+        "H"
+      ],
+      [
+        "M",
+        "",
+        "L",
+        "T",
+        "O"
+      ],
+      [
+        "E",
+        "Y",
+        "D",
+        "F"
+      ],
+      [
+        "",
+        "A",
+        "N",
+        "A"
+      ],
+      [
+        "I",
+        "N",
+        "O",
+        "S",
+        "U"
+      ],
+      [
+        "O",
+        "M",
+        "S",
+        "",
+        "M"
+      ],
+      [
+        "X",
+        "D",
+        "Y",
+        "Q"
+      ]
+    ]
+  },
+  {
+    "word": "COCOA",
+    "tier": "medium",
+    "template": 80,
+    "duplicateClues": 4,
+    "totalLetters": 27,
+    "presetLetters": [
+      [
+        "O",
+        "N",
+        "I",
+        "A",
+        ""
+      ],
+      [
+        "",
+        "I",
+        "Y",
+        "",
+        "O"
+      ],
+      [
+        "",
+        "A",
+        "O",
+        "D",
+        "E"
+      ],
+      [
+        "C",
+        "W",
+        "",
+        "T"
+      ],
+      [
+        "",
+        "",
+        "A",
+        "S",
+        "C"
+      ],
+      [
+        "",
+        "A",
+        "K",
+        "",
+        "B"
+      ],
+      [
+        "E",
+        "O",
+        "C",
+        "U",
+        "U",
+        "S"
+      ]
+    ]
+  },
+  {
+    "word": "PUZZLE",
+    "tier": "medium",
+    "template": 85,
+    "duplicateClues": 4,
+    "totalLetters": 28,
+    "presetLetters": [
+      [
+        "",
+        "V",
+        "L",
+        "",
+        "T"
+      ],
+      [
+        "S",
+        "Z",
+        "N",
+        "",
+        "A",
+        "Z"
+      ],
+      [
+        "",
+        "Z",
+        "G",
+        "F",
+        "P"
+      ],
+      [
+        "P",
+        "T",
+        "",
+        "B"
+      ],
+      [
+        "U",
+        "",
+        "U",
+        "O"
+      ],
+      [
+        "",
+        "L",
+        "E",
+        "E"
+      ],
+      [
+        "",
+        "W",
+        "U",
+        "E",
+        "T"
+      ]
+    ]
+  },
+  {
+    "word": "POPCORN",
+    "tier": "medium",
+    "template": 89,
+    "duplicateClues": 4,
+    "totalLetters": 28,
+    "presetLetters": [
+      [
+        "O",
+        "N",
+        "H",
+        "I"
+      ],
+      [
+        "",
+        "O",
+        "C",
+        "A"
+      ],
+      [
+        "",
+        "P",
+        "F",
+        "S",
+        "A"
+      ],
+      [
+        "P",
+        "P",
+        "O",
+        "U"
+      ],
+      [
+        "",
+        "C",
+        "R",
+        "S"
+      ],
+      [
+        "",
+        "S",
+        "Z",
+        "O"
+      ],
+      [
+        "E",
+        "S",
+        "O",
+        "Y",
+        "R",
+        "P"
+      ]
+    ]
+  },
+  {
+    "word": "SUNBEAM",
+    "tier": "medium",
+    "template": 91,
+    "duplicateClues": 4,
+    "totalLetters": 28,
+    "presetLetters": [
+      [
+        "E",
+        "P",
+        "E",
+        "A",
+        "K",
+        "Y"
+      ],
+      [
+        "",
+        "O",
+        "M",
+        "",
+        "M"
+      ],
+      [
+        "",
+        "B",
+        "D",
+        "T",
+        "S"
+      ],
+      [
+        "S",
+        "",
+        "N",
+        "O"
+      ],
+      [
+        "U",
+        "T",
+        "I",
+        "",
+        "S",
+        "E"
+      ],
+      [
+        "U",
+        "B",
+        "U",
+        "H"
+      ],
+      [
+        "",
+        "N",
+        "H",
+        "K"
+      ]
+    ]
+  }
+]
+

@@ -1,0 +1,401 @@
+[
+  {
+    "word": "MUSIC",
+    "tier": "medium",
+    "template": 67,
+    "duplicateClues": 4,
+    "totalLetters": 27,
+    "presetLetters": [
+      [
+        "U",
+        "R",
+        "O",
+        "",
+        ""
+      ],
+      [
+        "",
+        "Q",
+        "U",
+        "",
+        "U"
+      ],
+      [
+        "",
+        "S",
+        "S",
+        "N",
+        "R"
+      ],
+      [
+        "M",
+        "I",
+        "",
+        "I"
+      ],
+      [
+        "",
+        "I",
+        "C",
+        "D",
+        "P"
+      ],
+      [
+        "",
+        "A",
+        "R",
+        "C",
+        "T"
+      ],
+      [
+        "A",
+        "L",
+        "",
+        "A",
+        "P",
+        "U"
+      ]
+    ]
+  },
+  {
+    "word": "TOAST",
+    "tier": "medium",
+    "template": 70,
+    "duplicateClues": 4,
+    "totalLetters": 26,
+    "presetLetters": [
+      [
+        "O",
+        "",
+        "A",
+        "",
+        "R"
+      ],
+      [
+        "",
+        "A",
+        "",
+        "S",
+        "A"
+      ],
+      [
+        "",
+        "R",
+        "O",
+        "L"
+      ],
+      [
+        "T",
+        "",
+        "I",
+        "O"
+      ],
+      [
+        "D",
+        "A",
+        "",
+        "A",
+        "A",
+        "B"
+      ],
+      [
+        "L",
+        "S",
+        "E",
+        "T",
+        "N",
+        "R"
+      ],
+      [
+        "",
+        "",
+        "S",
+        "I",
+        "V"
+      ]
+    ]
+  },
+  {
+    "word": "CANDLE",
+    "tier": "medium",
+    "template": 84,
+    "duplicateClues": 3,
+    "totalLetters": 28,
+    "presetLetters": [
+      [
+        "A",
+        "G",
+        "W",
+        "E"
+      ],
+      [
+        "O",
+        "T",
+        "L",
+        "A",
+        "I",
+        "O"
+      ],
+      [
+        "",
+        "N",
+        "V",
+        "N",
+        "Y"
+      ],
+      [
+        "C",
+        "M",
+        "I",
+        "L"
+      ],
+      [
+        "",
+        "D",
+        "S",
+        "D"
+      ],
+      [
+        "",
+        "L",
+        "Z",
+        ""
+      ],
+      [
+        "",
+        "C",
+        "P",
+        "L"
+      ]
+    ]
+  },
+  {
+    "word": "RIVER",
+    "tier": "medium",
+    "template": 69,
+    "duplicateClues": 4,
+    "totalLetters": 27,
+    "presetLetters": [
+      [
+        "I",
+        "T",
+        "I",
+        "A",
+        "A"
+      ],
+      [
+        "",
+        "O",
+        "E",
+        "V"
+      ],
+      [
+        "",
+        "E",
+        "D",
+        "R",
+        "R"
+      ],
+      [
+        "R",
+        "I",
+        "N",
+        ""
+      ],
+      [
+        "",
+        "O",
+        "E",
+        "",
+        "T"
+      ],
+      [
+        "",
+        "M",
+        "D",
+        "D",
+        ""
+      ],
+      [
+        "V",
+        "U",
+        "I",
+        "",
+        "E",
+        ""
+      ]
+    ]
+  },
+  {
+    "word": "JELLY",
+    "tier": "medium",
+    "template": 80,
+    "duplicateClues": 3,
+    "totalLetters": 27,
+    "presetLetters": [
+      [
+        "E",
+        "S",
+        "Y",
+        "Y",
+        ""
+      ],
+      [
+        "",
+        "I",
+        "E",
+        "",
+        "E"
+      ],
+      [
+        "",
+        "A",
+        "L",
+        "T",
+        "A"
+      ],
+      [
+        "J",
+        "L",
+        "",
+        "N"
+      ],
+      [
+        "",
+        "",
+        "J",
+        "I",
+        "I"
+      ],
+      [
+        "",
+        "G",
+        "E",
+        "",
+        "I"
+      ],
+      [
+        "Y",
+        "S",
+        "L",
+        "N",
+        "G",
+        "E"
+      ]
+    ]
+  },
+  {
+    "word": "BRIGHT",
+    "tier": "medium",
+    "template": 85,
+    "duplicateClues": 4,
+    "totalLetters": 28,
+    "presetLetters": [
+      [
+        "",
+        "E",
+        "H",
+        "",
+        "Y"
+      ],
+      [
+        "N",
+        "O",
+        "Q",
+        "",
+        "R",
+        "G"
+      ],
+      [
+        "",
+        "I",
+        "A",
+        "K",
+        "M"
+      ],
+      [
+        "B",
+        "G",
+        "",
+        "H"
+      ],
+      [
+        "R",
+        "",
+        "R",
+        "E"
+      ],
+      [
+        "",
+        "B",
+        "T",
+        "G"
+      ],
+      [
+        "",
+        "O",
+        "R",
+        "U",
+        "T"
+      ]
+    ]
+  },
+  {
+    "word": "PAPER",
+    "tier": "medium",
+    "template": 82,
+    "duplicateClues": 4,
+    "totalLetters": 27,
+    "presetLetters": [
+      [
+        "A",
+        "O",
+        "",
+        "U",
+        "A"
+      ],
+      [
+        "",
+        "A",
+        "E",
+        "A"
+      ],
+      [
+        "",
+        "R",
+        "G",
+        "P",
+        "R"
+      ],
+      [
+        "P",
+        "I",
+        "N",
+        ""
+      ],
+      [
+        "",
+        "E",
+        "R",
+        "",
+        "G"
+      ],
+      [
+        "",
+        "S",
+        "O",
+        "S",
+        ""
+      ],
+      [
+        "L",
+        "P",
+        "T",
+        "",
+        "U",
+        "E"
+      ]
+    ]
+  }
+]
+

@@ -1,0 +1,401 @@
+[
+  {
+    "word": "JUICE",
+    "tier": "medium",
+    "template": 67,
+    "duplicateClues": 4,
+    "totalLetters": 27,
+    "presetLetters": [
+      [
+        "U",
+        "N",
+        "J",
+        "",
+        ""
+      ],
+      [
+        "",
+        "I",
+        "E",
+        "",
+        "U"
+      ],
+      [
+        "",
+        "A",
+        "I",
+        "E",
+        "C"
+      ],
+      [
+        "J",
+        "T",
+        "",
+        "A"
+      ],
+      [
+        "",
+        "C",
+        "O",
+        "R",
+        "R"
+      ],
+      [
+        "",
+        "U",
+        "R",
+        "E",
+        "G"
+      ],
+      [
+        "R",
+        "I",
+        "",
+        "C",
+        "C",
+        "N"
+      ]
+    ]
+  },
+  {
+    "word": "RADIO",
+    "tier": "medium",
+    "template": 70,
+    "duplicateClues": 4,
+    "totalLetters": 26,
+    "presetLetters": [
+      [
+        "A",
+        "B",
+        "D",
+        "",
+        "I"
+      ],
+      [
+        "",
+        "O",
+        "",
+        "I",
+        "J"
+      ],
+      [
+        "",
+        "T",
+        "A",
+        "L"
+      ],
+      [
+        "R",
+        "",
+        "B",
+        "E"
+      ],
+      [
+        "P",
+        "R",
+        "",
+        "A",
+        "O",
+        "I"
+      ],
+      [
+        "T",
+        "D",
+        "I",
+        "O",
+        "I",
+        "T"
+      ],
+      [
+        "",
+        "",
+        "E",
+        "",
+        "I"
+      ]
+    ]
+  },
+  {
+    "word": "POCKET",
+    "tier": "medium",
+    "template": 84,
+    "duplicateClues": 3,
+    "totalLetters": 28,
+    "presetLetters": [
+      [
+        "O",
+        "N",
+        "N",
+        "T"
+      ],
+      [
+        "O",
+        "K",
+        "Z",
+        "O",
+        "I",
+        "D"
+      ],
+      [
+        "",
+        "I",
+        "N",
+        "C",
+        "P"
+      ],
+      [
+        "P",
+        "Q",
+        "N",
+        "F"
+      ],
+      [
+        "",
+        "K",
+        "N",
+        "P"
+      ],
+      [
+        "",
+        "C",
+        "M",
+        ""
+      ],
+      [
+        "",
+        "A",
+        "H",
+        "E"
+      ]
+    ]
+  },
+  {
+    "word": "LIGHT",
+    "tier": "medium",
+    "template": 69,
+    "duplicateClues": 4,
+    "totalLetters": 27,
+    "presetLetters": [
+      [
+        "I",
+        "L",
+        "I",
+        "P",
+        "R"
+      ],
+      [
+        "",
+        "A",
+        "F",
+        "G"
+      ],
+      [
+        "",
+        "D",
+        "M",
+        "T",
+        "S"
+      ],
+      [
+        "L",
+        "A",
+        "H",
+        ""
+      ],
+      [
+        "",
+        "O",
+        "H",
+        "",
+        "I"
+      ],
+      [
+        "",
+        "M",
+        "C",
+        "B",
+        ""
+      ],
+      [
+        "R",
+        "G",
+        "S",
+        "",
+        "I",
+        ""
+      ]
+    ]
+  },
+  {
+    "word": "CANDY",
+    "tier": "medium",
+    "template": 80,
+    "duplicateClues": 3,
+    "totalLetters": 27,
+    "presetLetters": [
+      [
+        "A",
+        "D",
+        "G",
+        "Y",
+        ""
+      ],
+      [
+        "",
+        "N",
+        "C",
+        "",
+        "A"
+      ],
+      [
+        "",
+        "Y",
+        "D",
+        "P",
+        "I"
+      ],
+      [
+        "C",
+        "U",
+        "",
+        "V"
+      ],
+      [
+        "",
+        "",
+        "N",
+        "D",
+        "L"
+      ],
+      [
+        "",
+        "A",
+        "E",
+        "",
+        "Y"
+      ],
+      [
+        "I",
+        "E",
+        "N",
+        "T",
+        "Q",
+        "A"
+      ]
+    ]
+  },
+  {
+    "word": "GROOVE",
+    "tier": "medium",
+    "template": 85,
+    "duplicateClues": 4,
+    "totalLetters": 28,
+    "presetLetters": [
+      [
+        "",
+        "N",
+        "V",
+        "",
+        "O"
+      ],
+      [
+        "V",
+        "Z",
+        "D",
+        "",
+        "O",
+        "O"
+      ],
+      [
+        "",
+        "O",
+        "L",
+        "G",
+        "L"
+      ],
+      [
+        "G",
+        "K",
+        "",
+        "S"
+      ],
+      [
+        "R",
+        "",
+        "O",
+        "A"
+      ],
+      [
+        "",
+        "R",
+        "E",
+        "S"
+      ],
+      [
+        "",
+        "R",
+        "R",
+        "L",
+        "S"
+      ]
+    ]
+  },
+  {
+    "word": "TABLE",
+    "tier": "medium",
+    "template": 82,
+    "duplicateClues": 4,
+    "totalLetters": 27,
+    "presetLetters": [
+      [
+        "A",
+        "S",
+        "",
+        "B",
+        "J"
+      ],
+      [
+        "",
+        "E",
+        "T",
+        "A"
+      ],
+      [
+        "",
+        "I",
+        "D",
+        "B",
+        "A"
+      ],
+      [
+        "T",
+        "I",
+        "G",
+        ""
+      ],
+      [
+        "",
+        "D",
+        "E",
+        "",
+        "N"
+      ],
+      [
+        "",
+        "R",
+        "B",
+        "R",
+        ""
+      ],
+      [
+        "W",
+        "O",
+        "L",
+        "",
+        "O",
+        "L"
+      ]
+    ]
+  }
+]
+
