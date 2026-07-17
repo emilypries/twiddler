@@ -68,14 +68,14 @@ const DECOY_POOL="EEEEEEEEAAAAAAAIIIIIIIOOOOOOONNNNNNRRRRRRTTTTTTLLLLSSSSUUUUDDD
 const parsePairs=(value:string)=>{const out:[number,number][]=[];for(const part of value.split(",")){const m=part.trim().match(/^([1-6])\s*[-–:]\s*([1-6])$/);if(!m||m[1]===m[2])return null;out.push([+m[1],+m[2]]);}return out;};
 
 function TileFace({tile,pattern,geometry,status={},fills={},hidden={},preview=false,showLetters=true}:{tile:Tile;pattern:Pattern;geometry:PatternGeometry;status?:Record<number,string>;fills?:Record<number,string>;hidden?:Record<number,boolean>;preview?:boolean;showLetters?:boolean}){
-  const offsetCenter=pattern.id==="offset"?geometry.regions.reduce((best,region)=>region.cy>best.cy?region:best,geometry.regions[0]):null;
+  const offsetCenter=pattern.id==="offset"?geometry.regions.find(region=>region.ports.length===4):null;
   return <svg width="100" height="100" viewBox="0 0 100 100" className={preview?"tile-svg preview":"tile-svg"} aria-hidden="true">
     <defs><clipPath id="tile-hex-clip"><polygon points={HEX.map(p=>p.join(",")).join(" ")} /></clipPath></defs>
     <polygon points={HEX.map(p=>p.join(",")).join(" ")} className="tile-paper" />
     <g transform={`rotate(${tile.rotation*60} 50 50)`} clipPath="url(#tile-hex-clip)">
       {geometry.regions.map((region)=><path key={region.id} d={region.mask} className={`region-fill ${status[region.id]||""}`} style={fills[region.id]?{fill:fills[region.id]}:undefined} />)}
       {pattern.pairs.map((pair,i)=><path key={i} d={curvePath(pair)} className="wall" />)}
-      {showLetters&&geometry.regions.map((region)=>{if(!tile.letters[region.id]||hidden[region.id])return null;const inset=offsetCenter?.id===region.id?0.78:1,x=50+(region.cx-50)*inset,y=50+(region.cy-50)*inset;return <text key={`l${region.id}`} x={x} y={y+4.2} transform={preview?undefined:`rotate(${-tile.rotation*60} ${x} ${y})`} className="letter">{tile.letters[region.id]}</text>;})}
+      {showLetters&&geometry.regions.map((region)=>{if(!tile.letters[region.id]||hidden[region.id])return null;let x=region.cx,y=region.cy;if(offsetCenter?.id===region.id){x=50+(x-50)*.52;y=50+(y-50)*.52;}return <text key={`l${region.id}`} x={x} y={y+4.2} transform={preview?undefined:`rotate(${-tile.rotation*60} ${x} ${y})`} className="letter">{tile.letters[region.id]}</text>;})}
     </g>
   </svg>;
 }
