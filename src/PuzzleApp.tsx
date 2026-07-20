@@ -69,7 +69,7 @@ const PUZZLES:PuzzleSpec[]=[
   ...(sideBonusRoundThree as PuzzleSpec[]),
 ];
 const FEATURED_SET_ID=TUTORIAL_MODE?"tutorial":"fruits-overlap-expanded-v3";
-const FEATURED_PUZZLES=TUTORIAL_MODE?["ALPACA","BISON","COYOTE"]:["APPLE","PEACH","LIME","ORANGE","BANANA","CHERRY","APRICOT"];
+const FEATURED_PUZZLES=TUTORIAL_MODE?["ALPACA","BISON","COYOTE"]:["PEACH","APPLE","LIME","ORANGE","BANANA","CHERRY","APRICOT"];
 const featuredPuzzleIndex=(word:string)=>PUZZLES.findIndex(puzzle=>puzzle.setId===FEATURED_SET_ID&&puzzle.word===word);
 const DEFAULT_PUZZLE_INDEX=featuredPuzzleIndex(FEATURED_PUZZLES[0]);
 const THEME_WORDS={countries:countryVocabulary.accepted,fruits:fruitVocabulary.accepted} as const;
