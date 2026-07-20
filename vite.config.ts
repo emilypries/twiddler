@@ -8,9 +8,9 @@ export default defineConfig({
       name: "puzzle-trailing-slash",
       configureServer(server) {
         server.middlewares.use((request, response, next) => {
-          if (request.url === "/puzzle") {
+          if (request.url === "/puzzle" || request.url === "/how") {
             response.statusCode = 302;
-            response.setHeader("Location", "/puzzle/");
+            response.setHeader("Location", `${request.url}/`);
             response.end();
             return;
           }
@@ -19,9 +19,9 @@ export default defineConfig({
       },
       configurePreviewServer(server) {
         server.middlewares.use((request, response, next) => {
-          if (request.url === "/puzzle") {
+          if (request.url === "/puzzle" || request.url === "/how") {
             response.statusCode = 302;
-            response.setHeader("Location", "/puzzle/");
+            response.setHeader("Location", `${request.url}/`);
             response.end();
             return;
           }
@@ -36,6 +36,7 @@ export default defineConfig({
       input: {
         main: "index.html",
         puzzle: "puzzle/index.html",
+        how: "how/index.html",
       },
     },
   },
